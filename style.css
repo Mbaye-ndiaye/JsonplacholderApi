@@ -1,0 +1,41 @@
+
+.fa  {
+    position: relative;
+    color: black;
+    /* border: 2px solid #FF4754; */
+    background-color: blue;
+    text-decoration: none;
+    padding:  1rem;
+     border-radius: 4px; 
+    transition: all .2s;
+    
+  }
+  
+ 
+
+  .fa .fa-bell, span{
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    color: red;
+    /* background: #FF4754; */
+    border-radius: 50%;
+  }
+
+  .changer{
+    position: relative;
+    top: 10px;
+    right: 19px;
+    color: white;
+    border: 2px solid black;
+    margin: 2px;
+    /* background: red; */
+  }
+
+  .changer:hover{
+    background-color: red;
+  }
+
+
+ 
